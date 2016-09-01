@@ -1,3 +1,5 @@
+require 'pry'
+
 def second_challenge
   groceries = {
    dairy: ["milk", "yogurt", "cheese"],
@@ -7,7 +9,17 @@ def second_challenge
   }
 
   #code your solution here!
+  # list = []
+  # groceries.each do |group, array|
+  #   # binding.pry
+  #   list.push(array)
+  #   # binding.pry
+  # end
+  # list
 
-  
+  list = []
+  list.push(groceries.values).flatten
+
+
 
 end
